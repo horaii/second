@@ -21,11 +21,44 @@ body{
         }
         a{
             display: inline-block;
-            border: 1px solid red;
             padding: 8px 3%;
             background: hotpink;
             font: bold 16px/1 'arial';
             color: #fff;
         }
     }
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background: aqua;
+    
+        section{
+            width: 80%;
+            
+            h1{
+                color: aqua;  
+            }
+            a{
+                background: aqua;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:599px) {
+    body{
+        background: orange;
+    
+        section{
+
+            h1{
+                color: orange;  
+            }
+            a{
+                background: orange;
+            }
+        }
+    }
+    
 }
