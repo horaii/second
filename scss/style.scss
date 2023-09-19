@@ -1,6 +1,7 @@
-@import 'reset.scss';
+@import '_reset.scss';
+@import '_valuable.scss';
 body{
-    background: hotpink;
+    background: var(--color1);
 
     section{
         width: 600px;
@@ -11,7 +12,7 @@ body{
 
         h1{
             font: bold 50px/1 'arial';
-            color: hotpink;
+            color: var(--color1);
             margin-bottom: 40px;
 
            
@@ -22,7 +23,7 @@ body{
         a{
             display: inline-block;
             padding: 8px 3%;
-            background: hotpink;
+            background: var(--color1);
             font: bold 16px/1 'arial';
             color: #fff;
         }
@@ -31,16 +32,15 @@ body{
 
 @media screen and (max-width:1000px) {
     body{
-        background: aqua;
+        background: var(--color2);
     
         section{
             width: 80%;
-            
             h1{
-                color: aqua;  
+                color: var(--color2);  
             }
             a{
-                background: aqua;
+                background: var(--color2);
             }
         }
     }
@@ -48,15 +48,15 @@ body{
 }
 @media screen and (max-width:599px) {
     body{
-        background: orange;
+        background: var(--color3);
     
         section{
 
             h1{
-                color: orange;  
+                color: var(--color3);  
             }
             a{
-                background: orange;
+                background: var(--color3);
             }
         }
     }
